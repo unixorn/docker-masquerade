@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#
+# Use docker to run mosquitto_pub
+#
+# Copyright 2019, Joe Block <jpb@unixorn.net>
+#
+# License: Apache 2.0
+
+exec docker run -it --rm eclipse-mosquitto mosquitto_pub $@
