@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [docker-masquerade](#docker-masquerade)
+  - [Contents](#contents)
+  - [Installation](#installation)
+    - [Pre-requisites](#pre-requisites)
+    - [zgen](#zgen)
+    - [Antigen](#antigen)
+    - [oh-my-zsh](#oh-my-zsh)
+    - [Bash / Manual Installation](#bash--manual-installation)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # docker-masquerade
 
 docker-masquerade is a collection of shim scripts that run commands in docker containers instead of natively. This makes it easier to move into a new machine - install the ZSH plugin, and `docker` will automagically download the container image the first time you use a given shim script.
