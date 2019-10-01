@@ -15,7 +15,7 @@
 
 # docker-masquerade
 
-docker-masquerade is a collection of shim scripts that run commands in docker containers instead of natively. This makes it easier to move into a new machine - install the ZSH plugin, and `docker` will automagically download the container image the first time you use a given shim script.
+docker-masquerade is a collection of shim scripts that run commands in `docker` containers instead of natively. This makes it easier to move into a new machine - install the ZSH plugin, and `docker` will automagically download the container image the first time you use a given shim script.
 
 ## Contents
 
