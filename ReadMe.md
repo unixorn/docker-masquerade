@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [docker-masquerade](#docker-masquerade)
+  - [Status](#status)
   - [Contents](#contents)
   - [Installation](#installation)
     - [Pre-requisites](#pre-requisites)
@@ -14,6 +15,15 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # docker-masquerade
+
+## Status
+
+[![License](https://img.shields.io/github/license/unixorn/docker-masquerade.svg)](https://opensource.org/licenses/Apache-2.0)
+[![CircleCI](https://circleci.com/gh/unixorn/docker-masquerade.svg?style=shield)](https://circleci.com/gh/unixorn/docker-masquerade)
+[![GitHub stars](https://img.shields.io/github/stars/unixorn/docker-masquerade.svg)](https://github.com/unixorn/docker-masquerade/stargazers)
+[![Code Climate](https://codeclimate.com/github/unixorn/docker-masquerade/badges/gpa.svg)](https://codeclimate.com/github/unixorn/docker-masquerade)
+[![Issue Count](https://codeclimate.com/github/unixorn/docker-masquerade/badges/issue_count.svg)](https://codeclimate.com/github/unixorn/docker-masquerade)
+[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/docker-masquerade/master.svg)](https://github.com/unixorn/docker-masquerade)
 
 docker-masquerade is a collection of shim scripts that run commands in `docker` containers instead of natively. This makes it easier to move into a new machine - install the ZSH plugin, and `docker` will automagically download the container image the first time you use a given shim script.
 
