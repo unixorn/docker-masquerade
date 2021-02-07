@@ -16,4 +16,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-exec docker run -it --rm eclipse-mosquitto mosquitto_pub $@
+exec docker run -t --rm eclipse-mosquitto mosquitto_pub $@
